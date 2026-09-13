@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ControleEstoquePlus.Domain\ControleEstoquePlus.Domain.csproj" />
+    <ProjectReference Include="..\InventoryControlPlus.Domain\InventoryControlPlus.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

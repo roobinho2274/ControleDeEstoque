@@ -1,11 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\ControleEstoquePlus.Application\ControleEstoquePlus.Application.csproj" />
-    <ProjectReference Include="..\ControleEstoquePlus.Domain\ControleEstoquePlus.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Confluent.Kafka" Version="2.15.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.12">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -16,6 +11,11 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\InventoryControlPlus.Application\InventoryControlPlus.Application.csproj" />
+    <ProjectReference Include="..\InventoryControlPlus.Domain\InventoryControlPlus.Domain.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
