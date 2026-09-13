@@ -55,3 +55,29 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+# =========================================================================
+# Visual Studio - Arquivos temporários e de configuração local
+# =========================================================================
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio 2015 e superiores
+*.loupe
+*.lsp
+*.lsp.json
+
+# Pastas de cache e ferramentas do VS
+.vs-code/
+.vs/config/
+.vs/projecttemplates/
+
+# Arquivos de publicação local (Profiles de Publish)
+*.pubxml.user
+
+# Arquivos de cache do compilador Roslyn e Live Unit Testing
+.dotnet/
+.liveunittesting/
